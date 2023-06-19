@@ -1,0 +1,46 @@
+body{
+	border: double black;
+	width: 600px;
+	align-content: center;
+	border-width: 6px;
+	scroll-behavior: start;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: 350px;
+	margin-right: 0px;
+	border-color: grey;
+}
+
+h1{
+	font-weight: bold;
+	text-align: center;
+	color: lightsalmon;
+	font-size: 30px;
+	text-shadow: 1px 1px #c1c1c1;
+}
+
+input[type=submit]{
+	font-size: 18px;
+	padding: 2px;
+	width: 15%;
+	border-radius: 8px;
+	border-color: black;
+    background-color: #ff8a8a;
+
+}
+input[type=reset]{
+	font-size: 18px;
+	padding: 2px;
+	width: 15%;
+	border-radius:  8px ;
+	border-color: black;
+    background-color:#ff8a8a;
+}
+
+input[type=submit]:hover{
+    background-color: lightgreen;
+}
+
+input[type=reset]:hover{
+    background-color: lightgreen;
+}
